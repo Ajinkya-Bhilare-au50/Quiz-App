@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #242a40;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: aliceblue;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  outline: 2px solid rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.container2 {
+  width: 100%;
+  /* visibility: hidden; */
+}
+.line2 {
+  padding-top: 5px;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.unhide {
+  visibility: visible;
+}
+.inner1 {
+  display: flex;
+  gap: 30px;
+  padding-right: 5px;
+}
+.icons {
+  visibility: hidden;
+}
+.MCQoption {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+.question {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inside {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.button-Lower {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.wrapper {
+  /* display:flex;
+    justify-content: center;
+    align-items: center; */
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+  background-color: #2d4159;
+}
+.next {
+  background-color: #d0752b;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.previous {
+  background-color: #2e5ff1; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.submit {
+  background-color: #248f09; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.submit:hover {
+  background-color: #3a9a22;
+}
+.next:hover {
+  background-color: #e8883a;
+}
+.previous:hover {
+  background-color: #3867f2;
+}
+.img1 {
+  height: 190px;
+  visibility: hidden;
+}
+.congratulations {
+  font-size: 40px;
+  color: aliceblue;
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+  
+}
+#congo{
+    color:greenyellow;
+    font-weight: bold;
+    font-size: 50px;
+}
+.trophy {
+  visibility: hidden;
+
+}
